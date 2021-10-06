@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input" id="nameDiv">
+            <label for="fname" >FirstName:</label><br>
+            <input type="text" id="fname" placeholder="fname ">
+        </div>
+        <div class="input">
+            <label for="lname" >LastName:</label><br>
+            <input type="text" id="lname" placeholder="lname">
+        </div>
+        <div class="input">
+            <label>Gender:</label>
+            <input type="radio" id="gender" name="gender"  value="" placeholder=" ">
+            <label for="gender">Male</label>
+            <input type="radio" id="gender" name="gender" value="" placeholder=" ">
+            <label for="gender">Female</label>
+        </div>
+        <div class="input">
+            <label for="adress" >Address:</label><br>
+            <input type="text" id="adress" placeholder=" ">
+        </div>
+     
+        <div class="input">
+            <label for="pcode" >PinCode:</label><br>
+            <input type="text" id="pcode" placeholder=" ">
+        </div>
+        <div class="input">
+            <label for="chosefood" >Choice of Food:</label><br>
+            
+                <input type="checkbox" id="food">
+                    <label for="food">indian</label><br>
+                <input type="checkbox" id="food">
+                    <label for="food">Chinese</label><br>
+                <input type="checkbox" id="food">
+                    <label for="food">Italy</label><br>
+                <input type="checkbox" id="food">
+                    <label for="food">Panama</label><br>
+                <input type="checkbox" id="food">
+                    <label for="food">Burma</label><br>   
+        </div>
+        
+        <div class="input">
+            <label for="state" >State:</label><br>
+            <input type="text" id="state" value="" placeholder=" ">
+        </div><br>
+        <div class="input">
+            <label for="cname" >Country:</label><br>
+            <input type="text" id="cname"  value="" placeholder=" ">
+        </div> 
+        <button id="entry">Submit</button>
+    </div>
+    <div class="vl">
+        <table id="display">
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Gender</th>
+                <th>Address</th>
+                <th>PinCode</th>
+                <th>Choice of Food</th>
+                <th>State</th>
+                <th>Country</th>
+            </tr>
+        </table>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
